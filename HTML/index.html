@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">  
-    <link rel="preload" href="../CSS/colores.css" as ="style">
-    <link rel="stylesheet" href="../CSS/colores.css">  
+    <link rel="preload" href="CSS/colores.css" as ="style">
+    <link rel="stylesheet" href="CSS/colores.css">  
     <title>Curriculum online</title>
 </head>
 <body>
@@ -17,27 +17,34 @@
         <h1>ISC. Gustavo Vazquez Martinez</h1>
     </header>
 
-    <div class="nav-bg">
+    <div class="nav-bg" style="background-color: #c8b6a6;">
         <nav class="navegacion-principal contenedor">
             <a href="#">Inicio</a>
-            <a href="#">Sobre Mi</a>
-            <a href="#">Contacto</a>
+            <a href="Pages\Sobremi.html">Sobre Mi</a>
+            <a href="Pages\Contacto.html">Contacto</a>
         </nav>
     </div>
 
-    <section class="hero">
+    <section class="hero" style="background-image: url('img/hero2.jpg'); background-repeat: no-repeat; background-size: cover; height: 450px; position: relative; margin-bottom: 2rem;">
       <div class="contenido-hero">
             <h2>Diseño y Desarrollo de Sistemas</h2>
         <div class="ubicacion">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z"/>
-                    <circle cx="12" cy="11" r="3" />
-                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
-                </svg>
-
-    <P>Aguascalientes, Ags.</P>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p>Aguascalientes, Ags.</p>
         </div>
-        <a class="boton" href="#">Contactar</a>
+        <a class="boton" href="https://wa.me/525546814567" target="_blank" 
+           style="display: flex; align-items: center; justify-content: center; gap: 0.7rem; background: #25D366;">
+            <!-- Logo WhatsApp blanco SVG -->
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="16" r="16" fill="none"/>
+                <path d="M16 6C10.477 6 6 10.477 6 16c0 1.624.43 3.145 1.18 4.47L6 26l5.66-1.18A9.94 9.94 0 0 0 16 26c5.523 0 10-4.477 10-10S21.523 6 16 6zm0 18a7.94 7.94 0 0 1-4.07-1.13l-.29-.17-3.36.7.7-3.36-.17-.29A7.94 7.94 0 0 1 8 16c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8zm4.29-5.71c-.23-.12-1.36-.67-1.57-.75-.21-.08-.36-.12-.51.12-.15.23-.58.75-.71.9-.13.15-.26.17-.49.06-.23-.12-.97-.36-1.85-1.14-.68-.6-1.14-1.34-1.27-1.57-.13-.23-.01-.35.1-.46.1-.1.23-.26.34-.39.11-.13.15-.23.23-.38.08-.15.04-.29-.02-.41-.06-.12-.51-1.23-.7-1.68-.18-.44-.37-.38-.51-.39-.13-.01-.29-.01-.45-.01-.16 0-.41.06-.62.29-.21.23-.81.79-.81 1.93 0 1.14.83 2.25.95 2.41.12.15 1.63 2.49 3.96 3.39.55.19.98.3 1.31.39.55.14 1.05.12 1.44.07.44-.07 1.36-.56 1.55-1.1.19-.54.19-1 .13-1.1-.06-.1-.21-.16-.44-.28z" fill="#fff"/>
+            </svg>
+            <span style="font-size:1.6rem;">Contactar por WhatsApp</span> <span style="font-size:1.6rem;">💬</span>
+        </a>
       </div>
 
 
@@ -46,72 +53,75 @@
     <main class="contenedor sombra">
     <h2>Mis Servicios</h2>
     <div class="servicios">
-    <section class ="servicio">
-    <h3>Diseño Web </h3>
-    <div class="iconos">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z"/>
-                        <path d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
-                        <circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
-                        <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
-                        <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
-                    </svg>
-    </div>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint consectetur in assumenda mollitia. Neque obcaecati nulla ad non repellendus, voluptatibus asperiores alias quidem exercitationem ullam consectetur animi voluptas illo error.</p>
-    </section>
+        <section class="servicio" style="background: #f5eee6; padding: 2rem; border-radius: 1rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+            <h3 style="color: #7b3f00; text-transform: uppercase;">DISEÑO WEB</h3>
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <path d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
+                    <circle cx="7.5" cy="10.5" r=".5" fill="#c8b6a6" />
+                    <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+                    <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
+                </svg>
+            </div>
+            <p>
+                Durante mi experiencia universitaria, participé en el diseño y desarrollo de una página web para una clínica dental. Este proyecto me permitió aplicar mis conocimientos en diseño web, trabajar en equipo y entregar una solución funcional y atractiva para un cliente real.
+            </p>
+        </section>
 
-    <section class ="servicio">
-    <h3>Aplicaciones Web</h3>
-    <div class="iconos">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z"/>
-                        <line x1="4" y1="10" x2="4" y2="16" />
-                        <line x1="20" y1="10" x2="20" y2="16" />
-                        <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
-                        <line x1="8" y1="3" x2="9" y2="5" />
-                        <line x1="16" y1="3" x2="15" y2="5" />
-                        <line x1="9" y1="18" x2="9" y2="21" />
-                        <line x1="15" y1="18" x2="15" y2="21" />
-                    </svg>
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus! Quod, cumque. Quisquam, voluptatibus! Quod, cumque. Quisquam, voluptatibus! Quod, cumque. Quisquam, voluptatibus! Quod, cumque.</p>
-    </section>
+        <section class="servicio" style="background: #f5eee6; padding: 2rem; border-radius: 1rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+            <h3 style="color: #7b3f00; text-transform: uppercase;">E-COMMERCE</h3>
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="6" cy="19" r="2" />
+                    <circle cx="17" cy="19" r="2" />
+                    <path d="M17 17h-11v-14h-2" />
+                    <path d="M6 5l1.5 7h10.5l1.5 -7h-13z" />
+                </svg>
+            </div>
+            <p>
+                Tengo una tiendita ambulante en la universidad, lo que me ha permitido estar muy cerca de lo que son los negocios. Gracias a esta experiencia, he desarrollado lógica de negocios y una mejor comprensión sobre cómo funciona el comercio y la atención al cliente.
+            </p>
+        </section>
 
-    <section class ="servicio">
-    <h3>E-Commerce</h3>
-    <div class="iconos">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z"/>
-                        <circle cx="6" cy="19" r="2" />
-                        <circle cx="17" cy="19" r="2" />
-                        <path d="M17 17h-11v-14h-2" />
-                        <path d="M6 5l1.5 7h10.5l1.5 -7h-13z" />
-                    </svg>
+        <section class="servicio" style="background: #f5eee6; padding: 2rem; border-radius: 1rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+            <h3 style="color: #7b3f00; text-transform: uppercase;">SOPORTE TÉCNICO</h3>
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <path d="M14.7 6.3a1 1 0 0 0-1.4 0l-7 7a1 1 0 0 0 0 1.4l3 3a1 1 0 0 0 1.4 0l7-7a1 1 0 0 0 0-1.4l-3-3z" />
+                    <path d="M7 7l3 3" />
+                    <path d="M14 14l3 3" />
+                </svg>
+            </div>
+            <p>
+                Tuve experiencia en un taller automotriz en el que me encargué de dar mantenimiento preventivo y correctivo a la instalación de internet, sistemas de seguridad y computadoras, asegurando el correcto funcionamiento de la infraestructura tecnológica del negocio.
+            </p>
+        </section>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus! Quod, cumque. Quisquam, voluptatibus! Quod, cumque. Quisquam, voluptatibus! Quod, cumque. Quisquam, voluptatibus! Quod, cumque.</p>
-    </section>
     </main>
 
     <section>
     <h2>Contacto</h2>
-    <form class="formulario">
+    <form class="formulario" style="background: #a67c52; padding: 2rem; border-radius: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
         <fieldset>
-            <legend>Contáctanos llenando este formulario</legend>
+            <legend style="color: #fff;">Contáctanos llenando este formulario</legend>
             <div class="contenedor-campos">
                 <div class="campo">
-                    <label for="nombre">Nombre:</label>
+                    <label for="nombre" style="color: #fff;">Nombre:</label>
                     <input class="input-text" type="text" id="nombre" name="nombre" placeholder="Tu nombre">
                 </div>
                 <div class="campo">
-                    <label for="telefono">Teléfono:</label>
+                    <label for="telefono" style="color: #fff;">Teléfono:</label>
                     <input class="input-text" type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
                 </div>
                 <div class="campo">
-                    <label for="correo">Correo:</label>
+                    <label for="correo" style="color: #fff;">Correo:</label>
                     <input class="input-text" type="email" id="correo" name="correo" placeholder="Tu correo">
                 </div>
                 <div class="campo">
-                    <label for="mensaje">Mensaje:</label>
+                    <label for="mensaje" style="color: #fff;">Mensaje:</label>
                     <textarea class="input-text" id="mensaje" name="mensaje"></textarea>
                 </div>
             </div>
